@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="confetticanvas"></div>
+        <h1>Number Guessing Game</h1>
+        <p> Guess the number between 1 and 50.</p>
+        <p>You have 5 attempts to guess the correct number.</p>
+        <p id="info"></p>
+        <div class="guessno">
+            <form action="#">
+                <label for="number" id="lbl">Guess a number</label>
+                <input type="text" name="number" id="number">
+                <input type="button" value="Submit" id="btn">
+            </form>
+        </div>
+        <p id="prevguess">Precious guesses: </p>
+        <p id="guesscount">Remaining attempts: </p>
+        
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

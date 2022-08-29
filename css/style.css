@@ -1,0 +1,87 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+.container{
+    margin: 30px auto;
+    padding: 20px;
+    background: #E3B448;
+    width: 500px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #fff;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3A6B35;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+label,input[type="button"], input[type="text"]{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.guessno{
+    display: flex;
+    align-items: center;            
+    margin-left: 95px;  
+    background: #CBD18F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 200px;
+    border: none;
+    border-radius: 30px;
+}
+form{
+    /* margin-left: 100px; */
+    align-content: center;
+}
+
+#btn{
+    /* margin-left: 100px; */
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #3A6B35;
+    color: #E3B448;
+    border-radius: 10px;
+    /* box-shadow: 1px 0px 10px 0px rgb(88, 68, 68); */
+}
+#btn:hover{
+    /* margin-left: 100px; */
+    background: #E3B448;
+    color: #3A6B35;
+    font-weight: bold;
+}
+#number{
+    width: 250px;
+    /* margin-left: 30px; */
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+#number:focus{
+    cursor: text;
+    background-color: #dde0b6;
+}
+#number:focus-visible {
+    outline: 2px solid #3A6B35;
+    border-radius: 3px;
+}
+#lbl{
+    text-align: center;
+    /* margin-left: 80px; */
+}
+#info{
+    margin-top: 10px;
+}
